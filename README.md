@@ -1,0 +1,4 @@
+# Repro
+
+    cd src
+    ./generate

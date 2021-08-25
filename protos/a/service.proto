@@ -1,0 +1,6 @@
+syntax = "proto3";
+import "shared/empty.proto";
+package a;
+service AService {
+  rpc A(type.Empty) returns (type.Empty);
+}

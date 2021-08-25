@@ -1,0 +1,3 @@
+#!/ust/bin/env bash
+set -eo pipefail
+buf generate ../protos --include-imports
